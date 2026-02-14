@@ -57,7 +57,7 @@
    height: 40px;
    font-size: 16px;
    position:relative;
-   left: 70vw;
+   left: 300px;
    top: -20px;
 }
 .card span {
@@ -80,4 +80,96 @@
    position: relative;;
    top: 30px;
    left:30px;
+}
+
+.stle {
+   display: flex;
+   flex-direction: row;
+   justify-content:flex-start;
+   width: 100vw;
+   position:relative;
+   bottom: -20px
+}
+
+.streak {
+   border-radius: 20px;
+   background-color: cornflowerblue;
+   position: relative;
+   border: 10px solid black;
+   width: 200px;
+   height: 200px;
+}
+
+.lessons {
+   border-radius: 10px;
+   background-color: aqua;
+   position: static;
+   border: 10px solid black;
+   width: 200px;
+   height: 200px;
+   left: -500px;
+   border-radius: 20px;
+}
+
+.streak span {
+   font-size: 30px;
+   font-family: Arial, Helvetica, sans-serif;
+   display:inline-block;
+   position: relative;
+   top: 10px;
+   left: 20px;
+}
+
+.lessons span {
+   font-size: 30px;
+   font-family: Arial, Helvetica, sans-serif;
+   display:inline-block;
+   position: relative;
+   top: 50px;
+   left: 20px;
+}
+
+.streak p {
+   font-size: 20px;
+   font-family: Arial, Helvetica, sans-serif;
+   position: relative;
+   top: 30px;
+   left: 20px;
+}
+
+.progress{
+   display: flex;
+   flex-direction: row;
+   justify-content: space-between;
+   width: 200px;
+   position: relative;
+   top: 70px;
+}
+
+.Subjects {
+   display: flex;
+   flex-direction:column;
+   justify-content: space-evenly;
+   position: absolute;
+}
+
+.countdown {
+   display: flex;
+   flex-direction: row;
+   justify-content: space-evenly;
+   position:absolute;
+}
+
+.Recent {
+   display: flex;
+   flex-direction: column;
+   justify-content: space-evenly;
+   position: absolute;
+}
+
+.bottom-nav {
+   display: flex;
+   flex-direction: row;
+   justify-content: space-evenly;
+   position: absolute;
 }
