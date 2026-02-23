@@ -1,0 +1,83 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+body {
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    background-color: #f0f2f5;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+}
+.logo {
+    display: grid;
+    grid-template-columns: 1fr 2fr;
+    align-items: center;
+    margin-left: 10px;
+    margin-bottom: 20px;
+}
+.logo img {
+    width: 90px;
+    height: 90px;
+    margin-bottom: 10px;
+}
+.logo h1 {
+    font-size: 30px;
+    color: #4b4bc4;
+    text-shadow: #c6c6c6 0.1em 0.1em 0.2em;
+}
+.cards {
+  font-size: 20px;
+  position: relative;
+  width: 90%;
+  height: 300px;
+  overflow: hidden;
+  margin: 0 auto;
+}
+.card {
+    background-color: #fff;
+    border-radius: 10px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    padding: 20px;
+    text-align: center;
+}
+.card h2 {
+    font-size: 24px;
+    color: #333;
+    margin-bottom: 10px;
+}
+.card p {
+    font-size: 16px;
+    color: #666;
+    margin-bottom: 20px;
+}
+.signup {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin-top: 30px;
+}
+.btn {
+    background-color: #4b4bc4;
+    color: white;
+    border: none;
+    padding: 15px 30px;
+    font-size: 18px;
+    border-radius: 5px;
+    cursor: pointer;
+    margin: 20px;
+}
+.btn:hover {
+    background-color: #3a3a9c;
+}
+.link {
+  margin-bottom: 10px;
+}
+.terms {
+  color: #000;
+}
+.terms a {
+  color: #000;
+  text-decoration: none;
+}
